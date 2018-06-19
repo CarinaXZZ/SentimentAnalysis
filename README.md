@@ -19,10 +19,13 @@ pymongo is used.
 ## text_preprocessing.py
 This file contains several functions to process the raw data: data cleansing(remove html tag, urls etc.), 
 tokenise, lemmatize, remove the stop words, and word count.\
-nltk and WordNet are used.
+nltk, re and WordNet are used.
 
 ## sentiment_classifier.py
 The functions related to sentiment analysis: collect training data, extract features, train the model, classfy the data.\
 NaiveBayes is applied to categorise the data.\
 The bag of words are used as the features.\
 nltk is used.
+
+## manual_labelling.py
+The sentiments of the tweets was labelled manually by myself. I only labelled 200 of them. As a result, the training set is unbalanced. Most of them are natural.
