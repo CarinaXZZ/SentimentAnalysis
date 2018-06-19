@@ -33,7 +33,12 @@ class MyListener(StreamListener):
     '''
 
     def on_data(self, data):
+        '''
+        Store the important information of the tweets into MongoDB
 
+        :param data:
+        :return:
+        '''
         tweet = json.loads(data)
         tweet_id = tweet['id_str']  # The Tweet ID from Twitter in string format
         username = tweet['user']['screen_name']  # The username of the Tweet author
