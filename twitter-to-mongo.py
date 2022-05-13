@@ -20,10 +20,10 @@ keywords = ['#FIFA', '#WorldCup']
 language = ['en']
 
 # Twitter App Authentication .
-consumer_key = "d6EaJsmmsZt1T5Vpiykj5g4Ph"
-consumer_secret = "IwVI4iISvtPH1qj8gmivdoGLakyCGtnnbcgUM6fugCrSREn1J4"
-access_token = "832567188057968641-icpqjBUt6SdIlyRlhHLXkiFQRm1as6o"
-access_token_secret = "BPSDnvcojwzjJFE60PUp2MdldJ4RJ3RcOTMORyMEMnKI4"
+consumer_key = 
+consumer_secret = 
+access_token = 
+access_token_secret = 
 
 
 class MyListener(StreamListener):
